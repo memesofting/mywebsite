@@ -51,6 +51,7 @@ main {
 .profile {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* background-color: rgb(75, 121, 248); */
     justify-content: center;
 }
