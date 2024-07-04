@@ -1,0 +1,125 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 15px;
+    font-family: roboto;
+}
+
+header {
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.displayname {
+    display: flex;
+    color: rgb(75, 121, 248);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color:white;
+    justify-self: right;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.timeOfDay {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    padding: 20px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(75, 121, 248); */
+    justify-content: center;
+}
+
+.pic img {
+    margin: 50px;
+    margin-bottom: 0;
+    display: flex;
+    min-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px;
+    background-color: rgba(75, 121, 248, 0.418);
+    justify-content: center;
+    align-items: center;
+}
+
+.myname {
+    color: rgb(75, 121, 248);
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    padding: 0;
+}
+.portfolio div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+  .portfolio div img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .portfolio div img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    color: blue;
+  }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    border-top: 1px solid rgb(187, 187, 187);
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+}
